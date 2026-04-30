@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    background-color: #3e2723;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor-marca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.contenedor-marca h1 {
+    font-size: 32px;
+    margin: 0;
+}
