@@ -27,3 +27,15 @@ body {
     font-size: 32px;
     margin: 0;
 }
+
+.pie {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.pie p {
+    margin: 5px 0;
+}
