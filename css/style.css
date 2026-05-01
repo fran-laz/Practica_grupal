@@ -27,3 +27,60 @@ body {
     font-size: 32px;
     margin: 0;
 }
+
+.pie {
+    background-color: #3e2723;
+    color: white;
+    padding: 30px 20px 15px;
+    font-size: 14px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.texto-footer h2 {
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+.texto-footer p {
+    margin: 0;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.redes span {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.redes img {
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+    transition: transform 0.2s;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin: 25px auto 0;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
