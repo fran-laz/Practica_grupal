@@ -52,11 +52,13 @@ body {
     background-color: #97726b;
     color: white;
 }
-.breakfast-section {
+.breakfast-section,
+.healthy-section {
     padding: 24px;
     scroll-margin-top: 80px;
 }
-.breakfast-section h2 {
+.breakfast-section h2,
+.healthy-section h2 {
     text-align: center;
     margin-bottom: 16px;
 }
