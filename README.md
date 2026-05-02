@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagenes/CommitChambeadorLogo.jpeg" width="120">
+  <img src="imagenes/CommitChambeadorLogo.jpeg" width="120" style="border-radius: 47%;">
 </p>
 
 <h1 align="center">Commit Chambeador</h1>
