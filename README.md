@@ -49,3 +49,32 @@
 </table>
 
 ---
+
+## Descripción del proyecto
+
+Commit Chambeador es una landing page de una cafetería donde los usuarios pueden visualizar diferentes secciones del menú como desayunos, bebidas, postres, combos y opciones saludables.
+
+El objetivo del proyecto es aplicar buenas prácticas y practicar el uso de Git Flow en el trabajo en equipo.
+
+---
+
+## Tecnologías utilizadas
+
+- HTML
+- CSS
+- Git & GitHub
+
+---
+
+## Cómo ejecutar el proyecto
+
+El proyecto está disponible en GitHub Pages en el siguiente enlace:
+
+O de forma local:
+
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/fran-laz/Practica_grupal.git
+```
+1. Abrir la carpeta del proyecto
+2. Abrir el archivo index.html en el navegador o usar la extensión Live Server en VS Code
