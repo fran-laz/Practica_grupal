@@ -84,3 +84,21 @@ body {
 .footer-bottom p {
     margin: 0;
 }
+
+.seccion-bebidas-frias {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seccion-bebidas-frias h2 {
+    font-size: 28px;
+    color: #3e2723;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.bebidas-grid {
+    display: grid;
+    gap: 20px;
+}
