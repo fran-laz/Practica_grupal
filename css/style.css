@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
 .encabezado {
     background-color: #3e2723;
     color: white;
@@ -11,65 +10,139 @@ body {
     align-items: center;
     padding: 20px;
 }
-
 .contenedor-marca {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
 .logo {
     width: 70px;
     height: auto;
 }
-
 .contenedor-marca h1 {
     font-size: 32px;
     margin: 0;
 }
 
-.combosAndPromotions-section {
-  padding: 24px;
-  background-color: #f3f2ee;
+.category-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    gap: 12px;
+    padding: 12px 16px;
+    overflow-x: auto;
+    background-color: #f3f2ee;
 }
-
-.combosAndPromotions-section .products-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
-  gap: 16px;
-  justify-content: center;
+.category-menu::-webkit-scrollbar {
+    display: none;
 }
-
-.combosAndPromotions-section .product-card {
-  background: white;
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+.category-menu a {
+    text-decoration: none;
+    color: #97726b;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    transition: all 0.2s;
 }
-
-.combosAndPromotions-section .product-card img {
-  width: 100%;
-  height: 280px;
-  object-fit: contain;
-  background-color: #f3f2ee;
+.category-menu a:hover {
+    background-color: #97726b;
+    color: white;
 }
-
-.combosAndPromotions-section .product-info {
-  padding: 12px;
+.breakfast-section {
+    padding: 24px;
+    scroll-margin-top: 80px;
 }
-
-.combosAndPromotions-section .price {
-  display: block;
-  text-align: right;
-  font-size: 20px;
-  margin: 10px 0;
+.breakfast-section h2 {
+    text-align: center;
+    margin-bottom: 16px;
 }
-
-.combosAndPromotions-section button {
-  width: 100%;
-  padding: 10px;
-  background: #777;
-  color: white;
-  border: none;
-  cursor: pointer;
+.pie {
+    background-color: #3e2723;
+    color: white;
+    padding: 30px 20px 15px;
+    font-size: 14px;
+}
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.texto-footer h2 {
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+.texto-footer p {
+    margin: 0;
+}
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.redes span {
+    font-size: 13px;
+    opacity: 0.7;
+}
+.redes img {
+    width: 22px;
+    height: 22px;
+    filter: invert(1);
+    transition: transform 0.2s;
+}
+.redes img:hover {
+    transform: scale(1.2);
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin: 25px auto 0;
+    text-align: center;
+    opacity: 0.8;
+}
+.footer-bottom p {
+    margin: 0;
+}
+main {
+    padding: 24px;
+    background-color: #f3f2ee;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+    gap: 16px;
+    justify-content: center;
+}
+.product-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.product-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    background-color: #f3f2ee;
+}
+.product-info {
+    padding: 12px;
+}
+.price {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    margin: 10px 0;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #777;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
