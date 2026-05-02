@@ -122,3 +122,44 @@ body {
 .footer-bottom p {
     margin: 0;
 }
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
+  gap: 16px;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  background-color: #f3f2ee;
+}
+
+.product-info {
+  padding: 12px;
+}
+
+.price {
+  display: block;
+  text-align: right;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #777;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
