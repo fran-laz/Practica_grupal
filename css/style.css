@@ -28,44 +28,44 @@ body {
     margin: 0;
 }
 
-.landing-bodymai {
+.combosAgindPromotions-section {
   padding: 24px;
   background-color: #f3f2ee;
 }
 
-.landing-bodymai .products-grid {
+.combosAndPromotions-section .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 280px));
   gap: 16px;
   justify-content: center;
 }
 
-.landing-bodymai .product-card {
+.combosAndPromotions-section .product-card {
   background: white;
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
-.landing-bodymai .product-card img {
+.combosAndPromotions-section .product-card img {
   width: 100%;
   height: 280px;
   object-fit: contain;
   background-color: #f3f2ee;
 }
 
-.landing-bodymai .product-info {
+.combosAndPromotions-section .product-info {
   padding: 12px;
 }
 
-.landing-bodymai .price {
+.combosAndPromotions-section .price {
   display: block;
   text-align: right;
   font-size: 20px;
   margin: 10px 0;
 }
 
-.landing-bodymai button {
+.combosAndPromotions-section button {
   width: 100%;
   padding: 10px;
   background: #777;
