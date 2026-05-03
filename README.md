@@ -19,11 +19,11 @@
 
   <tr>
     <td>
-      <strong>Nombre completo 2</strong><br>
+      <strong>Francisco Lazarte Salazar</strong><br>
       Cel: XXXXXXXX
     </td>
     <td align="right">
-      <img src="imagenes/equipo/miembro2.jpg" width="80">
+      <img src="imagenes/equipo/francisco.png" width="80">
     </td>
   </tr>
 
@@ -68,7 +68,7 @@ El objetivo del proyecto es aplicar buenas prácticas y practicar el uso de Git 
 
 ## Cómo ejecutar el proyecto
 
-El proyecto está disponible en GitHub Pages en el siguiente enlace:
+El proyecto está disponible en GitHub Pages en el siguiente enlace: https://fran-laz.github.io/Practica_grupal/
 
 O de forma local:
 
