@@ -9,11 +9,11 @@
 <table align="center">
   <tr>
     <td>
-      <strong>Nombre completo 1</strong><br>
-      Cel: XXXXXXXX
+      <strong>Delia MAite Acosta Orellana</strong><br>
+      Cel: 68907099
     </td>
     <td align="right">
-      <img src="imagenes/equipo/miembro1.jpg" width="80">
+      <img src="imagenes/equipo/mai.jpg" width="80">
     </td>
   </tr>
 
