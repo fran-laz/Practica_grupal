@@ -252,3 +252,6 @@ button {
 .btn-agregar:hover {
     background-color: #5d4037;
 }
+#postres .products-grid {
+    justify-content: start;
+}
