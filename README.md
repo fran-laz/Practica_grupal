@@ -20,7 +20,7 @@
   <tr>
     <td>
       <strong>Francisco Lazarte Salazar</strong><br>
-      Cel: XXXXXXXX
+      Cel: 70739012
     </td>
     <td align="right">
       <img src="imagenes/equipo/francisco.png" width="80">
@@ -29,11 +29,11 @@
 
   <tr>
     <td>
-      <strong>Nombre completo 3</strong><br>
-      Cel: XXXXXXXX
+      <strong>Mauricio Alail Cano Gutierrez 3</strong><br>
+      Cel: 69548789
     </td>
     <td align="right">
-      <img src="imagenes/equipo/miembro3.jpg" width="80">
+      <img src="imagenes/equipo/mauricio.jpeg" width="80">
     </td>
   </tr>
 
